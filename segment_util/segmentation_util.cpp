@@ -33,7 +33,8 @@
 #include <cstdio>
 
 #include <boost/pending/disjoint_sets.hpp>
-#include <opencv2/core/core.hpp>
+//#include <opencv2/core/core.hpp>
+#include <opencv2/opencv.hpp>
 
 #ifdef _WIN32
 #undef min

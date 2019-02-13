@@ -1,0 +1,1 @@
+/usr/bin/c++  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG  -rdynamic CMakeFiles/segment_converter.dir/converter.cpp.o  -o segment_converter segment_util/libsegment_util.a base/libbase.a -lgflags -lglog -lprotobuf -lpthread -lopencv_core -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_highgui -lopencv_calib3d -lopencv_features2d -lopencv_imgcodecs 

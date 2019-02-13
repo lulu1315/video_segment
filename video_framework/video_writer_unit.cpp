@@ -32,11 +32,14 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+    
+extern "C" {
 #include <libavutil/mathematics.h>
 #include <libavutil/opt.h>
 #include <libavcodec/avcodec.h>
 #include <libavformat/avformat.h>
 #include <libswscale/swscale.h>
+}
 
 #ifdef __cplusplus
 }
@@ -141,7 +144,7 @@ bool VideoWriterUnit::OpenStreams(StreamSet* set) {
   codec_context_ = video_stream_->codec;
   const std::string file_ending = video_file_.substr(video_file_.size() - 3);
   if (file_ending == "mp4" || file_ending == "mov") {
-    codec_context_->codec_id = CODEC_ID_H264;
+    codec_context_->codec_id = AV_CODEC_ID_H264;
   } else {
     codec_context_->codec_id = output_format_->video_codec;
   }
@@ -158,28 +161,28 @@ bool VideoWriterUnit::OpenStreams(StreamSet* set) {
   LOG(INFO) << "time base : " << codec_context_->time_base.num
             << " / " << codec_context_->time_base.den;
 
-  codec_context_->pix_fmt = PIX_FMT_YUV420P;
+  codec_context_->pix_fmt = AV_PIX_FMT_YUV420P;
 
-  if (codec_context_->codec_id == CODEC_ID_MPEG2VIDEO) {
+  if (codec_context_->codec_id == AV_CODEC_ID_MPEG2VIDEO) {
     codec_context_->max_b_frames = 2;
   }
 
-  if (codec_context_->codec_id == CODEC_ID_MPEG1VIDEO) {
+  if (codec_context_->codec_id == AV_CODEC_ID_MPEG1VIDEO) {
     codec_context_->mb_decision = 2;
   }
 
-  if (codec_context_->codec_id == CODEC_ID_H264) {
+  if (codec_context_->codec_id == AV_CODEC_ID_H264) {
     // H264 settings.
     codec_context_->coder_type = FF_CODER_TYPE_AC;
-    codec_context_->flags |= CODEC_FLAG_LOOP_FILTER | CODEC_FLAG_GLOBAL_HEADER;
+    codec_context_->flags |= AV_CODEC_FLAG_LOOP_FILTER | AV_CODEC_FLAG_GLOBAL_HEADER;
     codec_context_->profile = FF_PROFILE_H264_BASELINE;
     codec_context_->scenechange_threshold = 40;
     codec_context_->gop_size = 10;
     codec_context_->max_b_frames = 0;
     codec_context_->max_qdiff = 4;
-    codec_context_->me_method = ME_HEX;
-    codec_context_->me_range = 16;
-    codec_context_->me_subpel_quality = 6;
+    //codec_context_->me_method = ME_HEX;
+    //codec_context_->me_range = 16;
+    //codec_context_->me_subpel_quality = 6;
     codec_context_->qmin = 10;
     codec_context_->qmax = 51;
     codec_context_->qcompress = 0.6;
@@ -219,12 +222,12 @@ bool VideoWriterUnit::OpenStreams(StreamSet* set) {
   avpicture_fill((AVPicture*)frame_encode_, encode_buffer, codec_context_->pix_fmt,
                  codec_context_->width, codec_context_->height);
 
-  uint8_t* bgr_buffer = (uint8_t*)av_malloc(avpicture_get_size(PIX_FMT_BGR24,
+  uint8_t* bgr_buffer = (uint8_t*)av_malloc(avpicture_get_size(AV_PIX_FMT_BGR24,
                                                                frame_width_,
                                                                frame_height_));
   avpicture_fill((AVPicture*)frame_bgr_,
                  bgr_buffer,
-                 PIX_FMT_BGR24,
+                 AV_PIX_FMT_BGR24,
                  frame_width_,
                  frame_height_);
 
@@ -241,7 +244,7 @@ bool VideoWriterUnit::OpenStreams(StreamSet* set) {
   // Setup color conversion.
   sws_context_ = sws_getContext(frame_width_,
                                 frame_height_,
-                                PIX_FMT_BGR24,
+                                AV_PIX_FMT_BGR24,
                                 codec_context_->width,
                                 codec_context_->height,
                                 codec_context_->pix_fmt,
@@ -323,7 +326,7 @@ int VideoWriterUnit::EncodeFrame(AVFrame* frame, int* got_frame) {
 
 bool VideoWriterUnit::PostProcess(list<FrameSetPtr>* append) {
   if (format_context_->streams[video_stream_->index]->codec->codec->capabilities &
-      CODEC_CAP_DELAY) {
+      AV_CODEC_CAP_DELAY) {
     while (true) {
       int got_frame;
       if (EncodeFrame(nullptr, &got_frame) < 0) {

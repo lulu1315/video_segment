@@ -1,0 +1,1 @@
+/usr/bin/c++  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG  -rdynamic CMakeFiles/segment_viewer.dir/viewer.cpp.o  -o segment_viewer segment_util/libsegment_util.a base/libbase.a -lopencv_core -lopencv_imgproc -lopencv_video -lopencv_videoio -lopencv_highgui -lopencv_calib3d -lopencv_features2d -lopencv_imgcodecs -lgflags -lglog -lprotobuf -lpthread 

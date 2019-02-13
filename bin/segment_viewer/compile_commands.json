@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/shared/foss-18/video_segment/bin/segment_viewer",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/segment_viewer/.. -I/shared/foss-18/video_segment/bin/segment_viewer -I/shared/foss-18/video_segment/bin/segment_viewer/..  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segment_viewer.dir/viewer.cpp.o -c /shared/foss-18/video_segment/segment_viewer/viewer.cpp",
+  "file": "/shared/foss-18/video_segment/segment_viewer/viewer.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/segment_viewer/base",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/segment_viewer/.. -I/shared/foss-18/video_segment/bin/segment_viewer -I/shared/foss-18/video_segment/bin/segment_viewer/..  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/base.dir/base.cpp.o -c /shared/foss-18/video_segment/base/base.cpp",
+  "file": "/shared/foss-18/video_segment/base/base.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/segment_viewer/base",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/segment_viewer/.. -I/shared/foss-18/video_segment/bin/segment_viewer -I/shared/foss-18/video_segment/bin/segment_viewer/..  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/base.dir/base_impl.cpp.o -c /shared/foss-18/video_segment/base/base_impl.cpp",
+  "file": "/shared/foss-18/video_segment/base/base_impl.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/segment_viewer/segment_util",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/segment_viewer/.. -I/shared/foss-18/video_segment/bin/segment_viewer -I/shared/foss-18/video_segment/bin/segment_viewer/.. -I/shared/foss-18/video_segment/bin/segment_viewer/segment_util -I/shared/foss-18/video_segment/segment_util/..  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segment_util.dir/segmentation_io.cpp.o -c /shared/foss-18/video_segment/segment_util/segmentation_io.cpp",
+  "file": "/shared/foss-18/video_segment/segment_util/segmentation_io.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/segment_viewer/segment_util",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/segment_viewer/.. -I/shared/foss-18/video_segment/bin/segment_viewer -I/shared/foss-18/video_segment/bin/segment_viewer/.. -I/shared/foss-18/video_segment/bin/segment_viewer/segment_util -I/shared/foss-18/video_segment/segment_util/..  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segment_util.dir/segmentation_util.cpp.o -c /shared/foss-18/video_segment/segment_util/segmentation_util.cpp",
+  "file": "/shared/foss-18/video_segment/segment_util/segmentation_util.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/segment_viewer/segment_util",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/segment_viewer/.. -I/shared/foss-18/video_segment/bin/segment_viewer -I/shared/foss-18/video_segment/bin/segment_viewer/.. -I/shared/foss-18/video_segment/bin/segment_viewer/segment_util -I/shared/foss-18/video_segment/segment_util/..  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segment_util.dir/segmentation_render.cpp.o -c /shared/foss-18/video_segment/segment_util/segmentation_render.cpp",
+  "file": "/shared/foss-18/video_segment/segment_util/segmentation_render.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/segment_viewer/segment_util",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/segment_viewer/.. -I/shared/foss-18/video_segment/bin/segment_viewer -I/shared/foss-18/video_segment/bin/segment_viewer/.. -I/shared/foss-18/video_segment/bin/segment_viewer/segment_util -I/shared/foss-18/video_segment/segment_util/..  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segment_util.dir/segmentation_boundary.cpp.o -c /shared/foss-18/video_segment/segment_util/segmentation_boundary.cpp",
+  "file": "/shared/foss-18/video_segment/segment_util/segmentation_boundary.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/segment_viewer/segment_util",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/segment_viewer/.. -I/shared/foss-18/video_segment/bin/segment_viewer -I/shared/foss-18/video_segment/bin/segment_viewer/.. -I/shared/foss-18/video_segment/bin/segment_viewer/segment_util -I/shared/foss-18/video_segment/segment_util/..  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segment_util.dir/segmentation.pb.cc.o -c /shared/foss-18/video_segment/bin/segment_viewer/segment_util/segmentation.pb.cc",
+  "file": "/shared/foss-18/video_segment/bin/segment_viewer/segment_util/segmentation.pb.cc"
+}
+]

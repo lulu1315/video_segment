@@ -1,0 +1,9 @@
+/shared/foss-18/video_segment/bin/segment_converter/CMakeFiles/rebuild_cache.dir
+/shared/foss-18/video_segment/bin/segment_converter/CMakeFiles/segment_converter.dir
+/shared/foss-18/video_segment/bin/segment_converter/CMakeFiles/edit_cache.dir
+/shared/foss-18/video_segment/bin/segment_converter/base/CMakeFiles/rebuild_cache.dir
+/shared/foss-18/video_segment/bin/segment_converter/base/CMakeFiles/base.dir
+/shared/foss-18/video_segment/bin/segment_converter/base/CMakeFiles/edit_cache.dir
+/shared/foss-18/video_segment/bin/segment_converter/segment_util/CMakeFiles/rebuild_cache.dir
+/shared/foss-18/video_segment/bin/segment_converter/segment_util/CMakeFiles/segment_util.dir
+/shared/foss-18/video_segment/bin/segment_converter/segment_util/CMakeFiles/edit_cache.dir

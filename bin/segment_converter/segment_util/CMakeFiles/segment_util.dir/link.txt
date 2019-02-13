@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsegment_util.a  CMakeFiles/segment_util.dir/segmentation_io.cpp.o CMakeFiles/segment_util.dir/segmentation_util.cpp.o CMakeFiles/segment_util.dir/segmentation_render.cpp.o CMakeFiles/segment_util.dir/segmentation_boundary.cpp.o CMakeFiles/segment_util.dir/segmentation.pb.cc.o
+/usr/bin/ranlib libsegment_util.a

@@ -23,6 +23,7 @@
 
 # Macro to find header and lib directories
 # example: FFMPEG_FIND(AVFORMAT avformat avformat.h)
+#FFMPEG_FIND(LIBAVFORMAT avformat avformat.h)
 MACRO(FFMPEG_FIND varname shortname headername)
     # old version of ffmpeg put header in $prefix/include/[ffmpeg]
     # so try to find header in include directory
@@ -40,6 +41,7 @@ MACRO(FFMPEG_FIND varname shortname headername)
         /opt/csw/include # Blastwave
         /opt/include
         /usr/freeware/include
+        /usr/include/x86_64-linux-gnu
         PATH_SUFFIXES ffmpeg
         DOC "Location of FFMPEG Headers"
     )
@@ -77,6 +79,7 @@ MACRO(FFMPEG_FIND varname shortname headername)
         /opt/csw/lib
         /opt/lib
         /usr/freeware/lib64
+        /usr/lib/x86_64-linux-gnu
         DOC "Location of FFMPEG Libraries"
     )
 
@@ -158,9 +161,11 @@ IF   (FFMPEG_LIBAVFORMAT_FOUND AND FFMPEG_LIBAVDEVICE_FOUND AND FFMPEG_LIBAVCODE
         ${FFMPEG_LIBSWSCALE_LIBRARIES}
         ${FFMPEG_LIBSWRESAMPLE_LIBRARIES}
     )
-
+    
+    MESSAGE(STATUS "found FFMPEG")
+    
 ELSE ()
 
-#    MESSAGE(STATUS "Could not find FFMPEG")
+    MESSAGE(STATUS "Could not find FFMPEG")
 
 ENDIF()

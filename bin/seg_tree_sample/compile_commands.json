@@ -1,0 +1,152 @@
+[
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/seg_tree_sample -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -isystem /usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/seg_tree_sample.dir/seg_tree.cpp.o -c /shared/foss-18/video_segment/seg_tree_sample/seg_tree.cpp",
+  "file": "/shared/foss-18/video_segment/seg_tree_sample/seg_tree.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/base",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/base -I/shared/foss-18/video_segment/base -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/..  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/base.dir/base.cpp.o -c /shared/foss-18/video_segment/base/base.cpp",
+  "file": "/shared/foss-18/video_segment/base/base.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/base",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/base -I/shared/foss-18/video_segment/base -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/..  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/base.dir/base_impl.cpp.o -c /shared/foss-18/video_segment/base/base_impl.cpp",
+  "file": "/shared/foss-18/video_segment/base/base_impl.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/imagefilter",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/imagefilter -I/shared/foss-18/video_segment/imagefilter -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/imagefilter/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/imagefilter.dir/image_filter.cpp.o -c /shared/foss-18/video_segment/imagefilter/image_filter.cpp",
+  "file": "/shared/foss-18/video_segment/imagefilter/image_filter.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segment_util",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segment_util -I/shared/foss-18/video_segment/segment_util -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segment_util/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segment_util.dir/segmentation_io.cpp.o -c /shared/foss-18/video_segment/segment_util/segmentation_io.cpp",
+  "file": "/shared/foss-18/video_segment/segment_util/segmentation_io.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segment_util",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segment_util -I/shared/foss-18/video_segment/segment_util -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segment_util/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segment_util.dir/segmentation_util.cpp.o -c /shared/foss-18/video_segment/segment_util/segmentation_util.cpp",
+  "file": "/shared/foss-18/video_segment/segment_util/segmentation_util.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segment_util",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segment_util -I/shared/foss-18/video_segment/segment_util -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segment_util/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segment_util.dir/segmentation_render.cpp.o -c /shared/foss-18/video_segment/segment_util/segmentation_render.cpp",
+  "file": "/shared/foss-18/video_segment/segment_util/segmentation_render.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segment_util",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segment_util -I/shared/foss-18/video_segment/segment_util -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segment_util/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segment_util.dir/segmentation_boundary.cpp.o -c /shared/foss-18/video_segment/segment_util/segmentation_boundary.cpp",
+  "file": "/shared/foss-18/video_segment/segment_util/segmentation_boundary.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segment_util",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segment_util -I/shared/foss-18/video_segment/segment_util -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segment_util/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segment_util.dir/segmentation.pb.cc.o -c /shared/foss-18/video_segment/bin/seg_tree_sample/segment_util/segmentation.pb.cc",
+  "file": "/shared/foss-18/video_segment/bin/seg_tree_sample/segment_util/segmentation.pb.cc"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework -I/shared/foss-18/video_segment/video_framework -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/video_framework/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/video_framework.dir/video_unit.cpp.o -c /shared/foss-18/video_segment/video_framework/video_unit.cpp",
+  "file": "/shared/foss-18/video_segment/video_framework/video_unit.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework -I/shared/foss-18/video_segment/video_framework -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/video_framework/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/video_framework.dir/video_display_unit.cpp.o -c /shared/foss-18/video_segment/video_framework/video_display_unit.cpp",
+  "file": "/shared/foss-18/video_segment/video_framework/video_display_unit.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework -I/shared/foss-18/video_segment/video_framework -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/video_framework/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/video_framework.dir/video_reader_unit.cpp.o -c /shared/foss-18/video_segment/video_framework/video_reader_unit.cpp",
+  "file": "/shared/foss-18/video_segment/video_framework/video_reader_unit.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework -I/shared/foss-18/video_segment/video_framework -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/video_framework/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/video_framework.dir/video_writer_unit.cpp.o -c /shared/foss-18/video_segment/video_framework/video_writer_unit.cpp",
+  "file": "/shared/foss-18/video_segment/video_framework/video_writer_unit.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework -I/shared/foss-18/video_segment/video_framework -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/video_framework/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/video_framework.dir/conversion_units.cpp.o -c /shared/foss-18/video_segment/video_framework/conversion_units.cpp",
+  "file": "/shared/foss-18/video_segment/video_framework/conversion_units.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework -I/shared/foss-18/video_segment/video_framework -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/video_framework/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/video_framework.dir/flow_reader.cpp.o -c /shared/foss-18/video_segment/video_framework/flow_reader.cpp",
+  "file": "/shared/foss-18/video_segment/video_framework/flow_reader.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework -I/shared/foss-18/video_segment/video_framework -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/video_framework/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/video_framework.dir/video_capture_unit.cpp.o -c /shared/foss-18/video_segment/video_framework/video_capture_unit.cpp",
+  "file": "/shared/foss-18/video_segment/video_framework/video_capture_unit.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/video_framework -I/shared/foss-18/video_segment/video_framework -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/video_framework/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/video_framework.dir/video_pipeline.cpp.o -c /shared/foss-18/video_segment/video_framework/video_pipeline.cpp",
+  "file": "/shared/foss-18/video_segment/video_framework/video_pipeline.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation -I/shared/foss-18/video_segment/segmentation -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segmentation/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segmentation.dir/boundary.cpp.o -c /shared/foss-18/video_segment/segmentation/boundary.cpp",
+  "file": "/shared/foss-18/video_segment/segmentation/boundary.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation -I/shared/foss-18/video_segment/segmentation -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segmentation/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segmentation.dir/histograms.cpp.o -c /shared/foss-18/video_segment/segmentation/histograms.cpp",
+  "file": "/shared/foss-18/video_segment/segmentation/histograms.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation -I/shared/foss-18/video_segment/segmentation -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segmentation/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segmentation.dir/dense_segmentation.cpp.o -c /shared/foss-18/video_segment/segmentation/dense_segmentation.cpp",
+  "file": "/shared/foss-18/video_segment/segmentation/dense_segmentation.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation -I/shared/foss-18/video_segment/segmentation -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segmentation/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segmentation.dir/dense_segmentation_graph.cpp.o -c /shared/foss-18/video_segment/segmentation/dense_segmentation_graph.cpp",
+  "file": "/shared/foss-18/video_segment/segmentation/dense_segmentation_graph.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation -I/shared/foss-18/video_segment/segmentation -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segmentation/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segmentation.dir/dense_seg_graph_interface.cpp.o -c /shared/foss-18/video_segment/segmentation/dense_seg_graph_interface.cpp",
+  "file": "/shared/foss-18/video_segment/segmentation/dense_seg_graph_interface.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation -I/shared/foss-18/video_segment/segmentation -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segmentation/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segmentation.dir/pixel_distance.cpp.o -c /shared/foss-18/video_segment/segmentation/pixel_distance.cpp",
+  "file": "/shared/foss-18/video_segment/segmentation/pixel_distance.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation -I/shared/foss-18/video_segment/segmentation -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segmentation/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segmentation.dir/region_segmentation_graph.cpp.o -c /shared/foss-18/video_segment/segmentation/region_segmentation_graph.cpp",
+  "file": "/shared/foss-18/video_segment/segmentation/region_segmentation_graph.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation -I/shared/foss-18/video_segment/segmentation -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segmentation/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segmentation.dir/region_segmentation.cpp.o -c /shared/foss-18/video_segment/segmentation/region_segmentation.cpp",
+  "file": "/shared/foss-18/video_segment/segmentation/region_segmentation.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation -I/shared/foss-18/video_segment/segmentation -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segmentation/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segmentation.dir/region_descriptor.cpp.o -c /shared/foss-18/video_segment/segmentation/region_descriptor.cpp",
+  "file": "/shared/foss-18/video_segment/segmentation/region_descriptor.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation -I/shared/foss-18/video_segment/segmentation -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segmentation/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segmentation.dir/segmentation.cpp.o -c /shared/foss-18/video_segment/segmentation/segmentation.cpp",
+  "file": "/shared/foss-18/video_segment/segmentation/segmentation.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation -I/shared/foss-18/video_segment/segmentation -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segmentation/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segmentation.dir/segmentation_graph.cpp.o -c /shared/foss-18/video_segment/segmentation/segmentation_graph.cpp",
+  "file": "/shared/foss-18/video_segment/segmentation/segmentation_graph.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation -I/shared/foss-18/video_segment/segmentation -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segmentation/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segmentation.dir/segmentation_common.cpp.o -c /shared/foss-18/video_segment/segmentation/segmentation_common.cpp",
+  "file": "/shared/foss-18/video_segment/segmentation/segmentation_common.cpp"
+},
+{
+  "directory": "/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation",
+  "command": "/usr/bin/c++   -I/shared/foss-18/video_segment/bin/seg_tree_sample/segmentation -I/shared/foss-18/video_segment/segmentation -I/shared/foss-18/video_segment/seg_tree_sample/.. -I/shared/foss-18/video_segment/bin/seg_tree_sample -I/shared/foss-18/video_segment/bin/seg_tree_sample/.. -I/shared/foss-18/video_segment/segmentation/.. -I/usr/include/opencv  -D__STDC_CONSTANT_MACROS -fopenmp -std=c++11 -O3 -DNDEBUG   -o CMakeFiles/segmentation.dir/segmentation_unit.cpp.o -c /shared/foss-18/video_segment/segmentation/segmentation_unit.cpp",
+  "file": "/shared/foss-18/video_segment/segmentation/segmentation_unit.cpp"
+}
+]

@@ -29,8 +29,10 @@
 #include "base/base_impl.h"
 
 #include <gflags/gflags.h>
-#include <opencv2/core/core.hpp>
+//#include <opencv2/core/core.hpp>
+#include <opencv2/opencv.hpp>
 #include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgcodecs.hpp>
 
 #include "segment_util/segmentation_io.h"
 #include "segment_util/segmentation_render.h"

@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+8af4b14374a57d7880f4fb65a6d7ca55 segment_util/segmentation.pb.h

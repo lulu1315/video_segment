@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvideo_framework.a  CMakeFiles/video_framework.dir/video_unit.cpp.o CMakeFiles/video_framework.dir/video_display_unit.cpp.o CMakeFiles/video_framework.dir/video_reader_unit.cpp.o CMakeFiles/video_framework.dir/video_writer_unit.cpp.o CMakeFiles/video_framework.dir/conversion_units.cpp.o CMakeFiles/video_framework.dir/flow_reader.cpp.o CMakeFiles/video_framework.dir/video_capture_unit.cpp.o CMakeFiles/video_framework.dir/video_pipeline.cpp.o
+/usr/bin/ranlib libvideo_framework.a

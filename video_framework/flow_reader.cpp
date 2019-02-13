@@ -30,6 +30,7 @@
 
 #include <opencv2/core/core.hpp>
 #include <opencv2/video/tracking.hpp>
+#include <opencv2/optflow.hpp>
 
 #include "base/base_impl.h"
 
@@ -185,11 +186,16 @@ bool DenseFlowUnit::OpenStreams(StreamSet* set) {
     return false;
   }
 
+  //Ptr<DenseOpticalFlow> algorithm;
+  //  if ( method == "deepflow" )
+  //      algorithm = createOptFlow_DeepFlow();
+    
   // Prepare flow lib.
   flow_engine_.reset(new cv::Ptr<cv::DenseOpticalFlow>());
-  *flow_engine_ = cv::createOptFlow_DualTVL1();
-  (*flow_engine_)->set("warps", options_.num_warps);
-  (*flow_engine_)->set("iterations", options_.flow_iterations);
+  *flow_engine_ = cv::optflow::createOptFlow_DeepFlow();
+  //*flow_engine_ = cv::createOptFlow_DualTVL1();
+  //(*flow_engine_)->set("warps", options_.num_warps);
+  //(*flow_engine_)->set("iterations", options_.flow_iterations);
 
   frame_number_ = 0;
 

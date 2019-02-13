@@ -1,0 +1,12 @@
+/shared/foss-18/video_segment/bin/video_example/CMakeFiles/rebuild_cache.dir
+/shared/foss-18/video_segment/bin/video_example/CMakeFiles/video_example.dir
+/shared/foss-18/video_segment/bin/video_example/CMakeFiles/edit_cache.dir
+/shared/foss-18/video_segment/bin/video_example/base/CMakeFiles/rebuild_cache.dir
+/shared/foss-18/video_segment/bin/video_example/base/CMakeFiles/base.dir
+/shared/foss-18/video_segment/bin/video_example/base/CMakeFiles/edit_cache.dir
+/shared/foss-18/video_segment/bin/video_example/imagefilter/CMakeFiles/rebuild_cache.dir
+/shared/foss-18/video_segment/bin/video_example/imagefilter/CMakeFiles/imagefilter.dir
+/shared/foss-18/video_segment/bin/video_example/imagefilter/CMakeFiles/edit_cache.dir
+/shared/foss-18/video_segment/bin/video_example/video_framework/CMakeFiles/rebuild_cache.dir
+/shared/foss-18/video_segment/bin/video_example/video_framework/CMakeFiles/video_framework.dir
+/shared/foss-18/video_segment/bin/video_example/video_framework/CMakeFiles/edit_cache.dir
