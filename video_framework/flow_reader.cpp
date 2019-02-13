@@ -185,13 +185,10 @@ bool DenseFlowUnit::OpenStreams(StreamSet* set) {
     LOG(ERROR) << "Could not find video stream!\n";
     return false;
   }
-
-  //Ptr<DenseOpticalFlow> algorithm;
-  //  if ( method == "deepflow" )
-  //      algorithm = createOptFlow_DeepFlow();
     
   // Prepare flow lib.
   flow_engine_.reset(new cv::Ptr<cv::DenseOpticalFlow>());
+  //switched to deepflow method
   *flow_engine_ = cv::optflow::createOptFlow_DeepFlow();
   //*flow_engine_ = cv::createOptFlow_DualTVL1();
   //(*flow_engine_)->set("warps", options_.num_warps);
