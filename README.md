@@ -1,3 +1,13 @@
+modified to compile on Ubuntu 18.04 with ffmpeg 4.1.1 and opencv 3.2.also switched to opencv DeepFlow. 
+
+```shell
+add-apt-repository -y ppa:jonathonf/ffmpeg-4
+apt update
+apt install ffmpeg x264 x265 
+apt install libavformat-dev libavdevice-dev libavcodec-dev libavutil-dev libswscale-dev libswresample-dev
+apt install libopencv-dev
+```
+
 The Video Segmentation Project
 =============
 
